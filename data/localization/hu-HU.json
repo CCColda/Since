@@ -1,0 +1,39 @@
+{
+	"hu-HU": {
+		"register": {
+			"desc": "Létrehoz egy eseményt",
+			"label-prompt": "Mi legyen az esemény címkéje?",
+			"date-prompt": "Mikor legyen az esemény?",
+			"err": ":x: \"{creator}\" már létrehozta ezt az eseményt \"{date, date, ::yyyy-MM-dd}\" dátumra :(",
+			"res": ":white_check_mark: Esemény létrehozva"
+		},
+		"since": {
+			"desc": "Lekéri az időt egy eseménytől/eseményig",
+			"label-prompt": "Mi az esemény címkéje?",
+			"time": "{year, plural, =0 {} other {# év, }}{month} hónap, {day} nap, {hour} óra, {minute} perc, {second} másodperc",
+			"until": "\"{label}\" eseményig `{time}` van hátra",
+			"since": "\"{label}\" esemény óta `{time}` telt el.",
+			"res": ":clock2: {for_or_until}",
+			"err": ":x: Nem létezik ilyen esemény"
+		},
+		"remove": {
+			"desc": "Eltávolít egy eseményt",
+			"label-prompt": "Mi az esemény címkéje?",
+			"res": ":white_check_mark: Esemény eltávolítva",
+			"err": ":x: Nem létezik ilyen esemény"
+		},
+		"list": {
+			"desc": "Kilistázza a meglévő eseményeket",
+			"res-head": ":calendar_spiral: {count} regisztrált esemény:\n```m\n",
+			"res-line": "{label}{padding}{date, date, ::yyyy-MM-dd}",
+			"res-bot": "```",
+			"err": ":x: Nincsenek regisztrált események"
+		},
+		"when": {
+			"desc": "Lekéri egy esemény dátumát",
+			"label-prompt": "Mi az esemény címkéje?",
+			"res": ":clock2: \"{label}\" esemény ideje: {date,date,::yyyy-MM-dd hh:mm:ss}",
+			"err": ":x: Nem létezik ilyen esemény"
+		}
+	}
+}

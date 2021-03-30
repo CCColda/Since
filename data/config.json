@@ -1,0 +1,8 @@
+{
+	"localization": {
+		"file": "data/localization/en-us.json",
+		"locale": "en-US"
+	},
+	"prefix": "s.",
+	"color": "#390B31"
+}

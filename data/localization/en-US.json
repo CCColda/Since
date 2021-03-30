@@ -1,0 +1,39 @@
+{
+	"en-US": {
+		"register": {
+			"desc": "Registers a date",
+			"label-prompt": "What should the date be called?",
+			"date-prompt": "When?",
+			"err": ":x: \"{creator}\" already registered this for date \"{date, date, ::yyyy-MM-dd}\" :(",
+			"res": ":white_check_mark: Date registered"
+		},
+		"since": {
+			"desc": "Queries the time since/until a date",
+			"label-prompt": "What is the label of the date?",
+			"time": "{year, plural, =0 {} other {# years, }}{month, plural, =1 {# month} other {# months}}, {day, plural, =1 {# day} other {# days}}, {hour, plural, =1 {# hour} other {# hours}}, {minute, plural, =1 {# minute} other {# minutes}}, {second, plural, =1 {# second} other {# seconds}}",
+			"until": "Until \"{label}\": `{time}`",
+			"since": "Since \"{label}\": `{time}`",
+			"res": ":clock2: {for_or_until}",
+			"err": ":x: Label doesn't exist"
+		},
+		"remove": {
+			"desc": "Unregisters a date",
+			"label-prompt": "What is the label of the date?",
+			"res": ":white_check_mark: Date removed",
+			"err": ":x: Label doesn't exist"
+		},
+		"list": {
+			"desc": "Lists registered dates",
+			"res-head": ":calendar_spiral: {count} registered dates:\n```m\n",
+			"res-line": "{label}{padding}{date, date, ::yyyy-MM-dd}",
+			"res-bot": "```",
+			"err": ":x: There are no registered dates"
+		},
+		"when": {
+			"desc": "Queries the exact date of a label",
+			"label-prompt": "What is the label of the date?",
+			"res": ":clock2: \"{label}\" is on: `{date,date,::yyyy-MM-dd hh:mm:ss}`",
+			"err": ":x: Label doesn't exist"
+		}
+	}
+}
