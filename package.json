@@ -1,0 +1,22 @@
+{
+  "name": "since",
+  "version": "0.1.0",
+  "description": "Discord bot to tell the time since a date or until a date.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "COlda",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "^0.12.2",
+    "intl-messageformat": "^9.5.4",
+    "sqlite": "^4.0.19",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.36"
+  }
+}
