@@ -13,13 +13,12 @@ Prerequisites: [node.js, npm](https://nodejs.org/), [typescript](https://www.npm
 2. Create a `secret.json` file in `data` with the following structure:
 ```json
 {
-	// Copy from the Discord Developer portal
 	"token": "your-bot-token-here",
-	// May leave blank ("") or paste in your discord user ID
 	"owner": "your-account-id"
 }
 ```
-^ <sub><sup>[Discord Developer Portal](https://discord.com/developers/)</sup></sub>
+^<sub><sup> The token value should be copied from the [Discord Developer Portal](https://discord.com/developers/). The owner field is optional and may be left blank - `""`.
+</sub></sup>
 
 3. Open the folder in a command shell
 ```sh
